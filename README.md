@@ -1,6 +1,6 @@
 # Access Control API Project
 
-![](/assets/Access%20Control%20API.webm)
+![](/assets/AccessControlApi.gif)
 
 ## Summary
 The Access Control API project is designed to manage restrictions for different categories of people accessing specific areas. It utilizes ASP.NET Core for the backend, with a simple HTML/JavaScript frontend for user interaction. This project incorporates CRUD operations, making it versatile for various access control scenarios.
