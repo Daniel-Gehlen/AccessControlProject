@@ -1,0 +1,90 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9; /* Soft green background */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    color: #4caf50; /* Dark green for main title */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3f51b5; /* Blue for section titles */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3f51b5; /* Underline effect */
+    padding-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px; /* Spacing above and below labels */
+}
+
+select, input[type="number"], input[type="text"] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Spacing inside inputs */
+    margin-bottom: 15px; /* Spacing below inputs */
+    border: 2px solid #4caf50; /* Green border for inputs */
+    border-radius: 5px; /* Rounded corners */
+    transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+select:focus, input:focus {
+    border-color: #3f51b5; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+button {
+    background-color: #4caf50; /* Green background for buttons */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+ul {
+    padding: 0;
+    list-style: none; /* No bullet points */
+    margin-top: 15px; /* Spacing above the list */
+}
+
+ul li {
+    background-color: #fff; /* White background for list items */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside list items */
+    margin-bottom: 10px; /* Spacing below list items */
+    transition: transform 0.2s; /* Smooth scale transition */
+}
+
+ul li:hover {
+    transform: scale(1.02); /* Slightly scale up on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+h3 {
+    color: #3f51b5; /* Blue color for sub-sections */
+    margin-top: 20px; /* Spacing above sub-section headings */
+}
+
+input::placeholder {
+    color: #bbb; /* Light gray placeholder text */
+}
+

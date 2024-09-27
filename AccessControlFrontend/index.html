@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Control API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script> <!-- Link to the external JavaScript file -->
+</head>
+<body>
+    <h1>Access Control API</h1>
+
+    <h2>Add Restriction</h2>
+    <label for="peopleCategory">People Category (S): </label>
+    <select id="peopleCategory"></select>
+    <br>
+    <label for="areaCategory">Area Category (P): </label>
+    <select id="areaCategory"></select>
+    <br>
+    <button onclick="addRestriction()">Add Restriction</button>
+
+    <h3>Restriction List</h3>
+    <ul id="restrictionList"></ul>
+
+    <h2>Edit Restriction</h2>
+    <input type="number" id="editRestrictionId" placeholder="ID to Edit">
+    <input type="text" id="editCategoryS" placeholder="New People Category (S)">
+    <input type="text" id="editCategoryP" placeholder="New Area Category (P)">
+    <button onclick="editRestriction()">Edit Restriction</button>
+    <button onclick="deleteRestriction()">Delete Restriction</button>
+
+    <h2>Add Service</h2>
+    <label for="serviceName">Service: </label>
+    <select id="serviceName"></select>
+    <br>
+    <button onclick="addService()">Add Service</button>
+
+    <h3>Service List</h3>
+    <ul id="serviceList"></ul>
+
+    <h2>Edit Service</h2>
+    <input type="number" id="editServiceId" placeholder="ID to Edit">
+    <input type="text" id="editServiceName" placeholder="New Service Name">
+    <button onclick="editService()">Edit Service</button>
+    <button onclick="deleteService()">Delete Service</button>
+
+    <h2>People Categories</h2>
+    <ul>
+        <li>Employee</li>
+        <li>Visitor</li>
+        <li>Contractor</li>
+        <li>Administrator</li>
+    </ul>
+</body>
+</html>
